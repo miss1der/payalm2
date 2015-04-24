@@ -1,53 +1,47 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="236" inline="true" x="39" y="31">
+  <block type="controls_repeat" id="1" inline="true" x="39" y="31">
     <value name="TIMES">
-      <block type="math_number" id="243">
+      <block type="math_number" id="2">
         <field name="NUM">140000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="130"></block>
+      <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="movement_right" id="253">
+      <block type="movement_right" id="4">
         <next>
-          <block type="controls_repeat" id="290" inline="true">
+          <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="291">
+              <block type="math_number" id="6">
                 <field name="NUM">140000</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="292"></block>
+              <block type="movement_forward" id="7"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="293" inline="true">
+              <block type="controls_repeat" id="8" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="294">
+                  <block type="math_number" id="9">
                     <field name="NUM">140000</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_forward" id="295"></block>
+                  <block type="movement_forward" id="10"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="296" inline="true">
+                  <block type="controls_repeat" id="11" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="297">
+                      <block type="math_number" id="12">
                         <field name="NUM">140000</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="298"></block>
+                      <block type="movement_forward" id="13"></block>
                     </statement>
                     <next>
-                      <block type="movement_stop" id="308">
-                        <next>
-                          <block type="oled_drawtext" id="317">
-                            <field name="TEXT">mission accomplished</field>
-                          </block>
-                        </next>
-                      </block>
+                      <block type="movement_stop" id="14"></block>
                     </next>
                   </block>
                 </next>
