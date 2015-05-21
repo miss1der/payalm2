@@ -9,70 +9,85 @@
       <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="controls_repeat" id="4" inline="true">
-        <value name="TIMES">
-          <block type="math_number" id="5">
-            <field name="NUM">90</field>
-          </block>
-        </value>
-        <statement name="DO">
-          <block type="movement_right" id="6"></block>
-        </statement>
+      <block type="movement_stop" id="34">
         <next>
-          <block type="controls_repeat" id="7" inline="true">
+          <block type="controls_repeat" id="4" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="8">
-                <field name="NUM">140000</field>
+              <block type="math_number" id="5">
+                <field name="NUM">90</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="9"></block>
+              <block type="movement_right" id="6"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="10" inline="true">
+              <block type="controls_repeat" id="7" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="11">
-                    <field name="NUM">90</field>
+                  <block type="math_number" id="8">
+                    <field name="NUM">140000</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_right" id="12"></block>
+                  <block type="movement_forward" id="9"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="13" inline="true">
-                    <value name="TIMES">
-                      <block type="math_number" id="14">
-                        <field name="NUM">140000</field>
-                      </block>
-                    </value>
-                    <statement name="DO">
-                      <block type="movement_forward" id="15"></block>
-                    </statement>
+                  <block type="movement_stop" id="54">
                     <next>
-                      <block type="controls_repeat" id="16" inline="true">
+                      <block type="controls_repeat" id="10" inline="true">
                         <value name="TIMES">
-                          <block type="math_number" id="17">
+                          <block type="math_number" id="11">
                             <field name="NUM">90</field>
                           </block>
                         </value>
                         <statement name="DO">
-                          <block type="movement_right" id="18"></block>
+                          <block type="movement_right" id="12"></block>
                         </statement>
                         <next>
-                          <block type="controls_repeat" id="19" inline="true">
+                          <block type="controls_repeat" id="13" inline="true">
                             <value name="TIMES">
-                              <block type="math_number" id="20">
+                              <block type="math_number" id="14">
                                 <field name="NUM">140000</field>
                               </block>
                             </value>
                             <statement name="DO">
-                              <block type="movement_forward" id="21"></block>
+                              <block type="movement_forward" id="15"></block>
                             </statement>
                             <next>
-                              <block type="movement_stop" id="22">
+                              <block type="movement_stop" id="64">
                                 <next>
-                                  <block type="oled_drawtext" id="23">
-                                    <field name="TEXT">mission accomplished</field>
+                                  <block type="controls_repeat" id="16" inline="true">
+                                    <value name="TIMES">
+                                      <block type="math_number" id="17">
+                                        <field name="NUM">90</field>
+                                      </block>
+                                    </value>
+                                    <statement name="DO">
+                                      <block type="movement_right" id="18"></block>
+                                    </statement>
+                                    <next>
+                                      <block type="controls_repeat" id="19" inline="true">
+                                        <value name="TIMES">
+                                          <block type="math_number" id="20">
+                                            <field name="NUM">140000</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="movement_forward" id="21"></block>
+                                        </statement>
+                                        <next>
+                                          <block type="movement_stop" id="22">
+                                            <next>
+                                              <block type="oled_drawtext" id="23">
+                                                <field name="TEXT">mission accomplished</field>
+                                                <next>
+                                                  <block type="movement_stop" id="44"></block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
                                   </block>
                                 </next>
                               </block>
