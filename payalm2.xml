@@ -14,7 +14,7 @@
           <block type="controls_repeat" id="5" inline="true">
             <value name="TIMES">
               <block type="math_number" id="6">
-                <field name="NUM">90</field>
+                <field name="NUM">16250</field>
               </block>
             </value>
             <statement name="DO">
@@ -36,7 +36,7 @@
                       <block type="controls_repeat" id="12" inline="true">
                         <value name="TIMES">
                           <block type="math_number" id="13">
-                            <field name="NUM">90</field>
+                            <field name="NUM">16250</field>
                           </block>
                         </value>
                         <statement name="DO">
@@ -58,7 +58,7 @@
                                   <block type="controls_repeat" id="19" inline="true">
                                     <value name="TIMES">
                                       <block type="math_number" id="20">
-                                        <field name="NUM">90</field>
+                                        <field name="NUM">16250</field>
                                       </block>
                                     </value>
                                     <statement name="DO">
@@ -75,16 +75,7 @@
                                           <block type="movement_forward" id="24"></block>
                                         </statement>
                                         <next>
-                                          <block type="movement_stop" id="25">
-                                            <next>
-                                              <block type="oled_drawtext" id="26">
-                                                <field name="TEXT">mission accomplished</field>
-                                                <next>
-                                                  <block type="movement_stop" id="27"></block>
-                                                </next>
-                                              </block>
-                                            </next>
-                                          </block>
+                                          <block type="movement_stop" id="25"></block>
                                         </next>
                                       </block>
                                     </next>
